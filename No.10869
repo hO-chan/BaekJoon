@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main(void) {
+  unsigned int A,B;
+  double C;
+
+  scanf("%d",&A);
+  scanf("%d",&B);
+  C = (double)A/B;
+
+  printf("%d\n",A+B);
+  printf("%d\n",A-B);
+  printf("%d\n",A*B);
+  printf("%d\n",A/B);
+  //printf("%.99f\n",C);
+  // 아마 몫만 출력해야되서 틀린듯. -> 정수part만 출력해야하는듯
+  printf("%d",A%B);
+
+}
