@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main(void) {
+  int A,B;
+  
+
+  scanf("%d",&A);
+  scanf("%d",&B);
+  
+
+  //printf("%d",A+B);
+  printf("%d",A+B);
+
+}
+
+
+
+//1001번은 + 대신 - 이용
+//10998 + 대신 *
