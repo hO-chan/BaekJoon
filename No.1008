@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main(void) {
+  unsigned int A,B;
+  double C;
+
+  scanf("%d",&A);
+  scanf("%d",&B);
+  C = (double)A/B;
+
+  printf("%.99f",C);
+
+}
+// float 말고 double을 쓰고 99f로 과격하게 바꾸니가 맞았다.
+//아마 오차범위 10^-9 때문인거같다.
+//float,double,unsigned int,int
